@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 
-// Weather takes in an initial temperature as a prop
+// Take in celsius temperature as a prop
 const Temperature = ({celsius}) => {
 
-    // Temperature Variables
+    // Handle the state of temperature
     const [temperature, setTemp] = useState(celsius);
 
     return (
         <div>
-            {/* Buttons to update temperature in Celsius */}
+            {/* Buttons to update temperature in Celsius and display it dynamically*/}
             <button class="increment" onClick={() => setTemp(temperature + 1)}>Increment</button>
             <button class="decrement" onClick={() => setTemp(temperature - 1)}>Decrement</button>
             <p>{temperature}°C</p>

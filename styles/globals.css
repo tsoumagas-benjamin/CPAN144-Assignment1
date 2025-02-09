@@ -35,6 +35,7 @@ a {
   text-decoration: none;
 }
 
+/* Center and style the h1 tag and divs*/
 h1 {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -44,6 +45,7 @@ div {
   text-align: center;
 }
 
+/* Style all buttons */
 button {
   width: 100px;
   padding: 5px;
@@ -52,6 +54,7 @@ button {
   border-radius: 8px;
 }
 
+/* Modify colours of each categories of buttons */
 .home {
   background-color: rgb(255, 104, 104);
 }
@@ -76,10 +79,12 @@ button {
   background-color: greenyellow;
 }
 
+/* Change colour of submit when hovered */
 .submit:hover {
   background-color: green;
 }
 
+/* Change styling of p tag showing successful registration */
 .user-submit {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 5px;

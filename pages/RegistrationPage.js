@@ -5,6 +5,8 @@ import Link from 'next/link';
 // Weather page with weather and temperature widget
 const RegistrationPage = () => {
 
+    // RegistrationPage with Registration component that passes Admin as prop to Registration
+    // Links back to home page with a button style
     return (
         <div>
             <Registration user={"Admin"} />

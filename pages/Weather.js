@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Temperature from './Temperature.js';
 
-// Weather takes in an initial temperature as a prop
+// Take in temp as a prop to later pass to the Temperature component
 const Weather = ({temp}) => {
 
-    // Weather variables for weatherIndex and temperature in Celsius
+    // Handle the state of weatherIndex
     const [weatherIndex, setWeather] = useState(0);
 
     // Array of weathers to cycle through on click by modifying weatherIndex
